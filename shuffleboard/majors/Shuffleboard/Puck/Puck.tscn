@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://doxxbob0d0a1s"]
+
+[ext_resource type="Script" uid="uid://j051f6qsi3vt" path="res://majors/Shuffleboard/Puck/Puck.gd" id="1_8p4en"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_8p4en"]
+height = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8p4en"]
+albedo_color = Color(1, 0.44313726, 1, 1)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_8p4en"]
+height = 0.5
+
+[node name="Puck" type="Node3D"]
+script = ExtResource("1_8p4en")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("CylinderMesh_8p4en")
+surface_material_override/0 = SubResource("StandardMaterial3D_8p4en")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("CylinderShape3D_8p4en")

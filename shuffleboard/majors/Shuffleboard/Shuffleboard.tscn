@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://bfm5rl4gevnp5"]
+
+[ext_resource type="PackedScene" uid="uid://blt5fluqlnwho" path="res://majors/Shuffleboard/Floors/Base.tscn" id="1_yk27e"]
+[ext_resource type="PackedScene" uid="uid://doxxbob0d0a1s" path="res://majors/Shuffleboard/Puck/Puck.tscn" id="2_gk0pn"]
+[ext_resource type="PackedScene" uid="uid://6p5gs1ikamik" path="res://majors/Shuffleboard/Stick/Stick.tscn" id="3_r2cw0"]
+
+[node name="Shuffleboard" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.7879785, 0.6157028, 0, -0.6157028, 0.7879785, 0, 5.4690623, 3.56997)
+
+[node name="Enviroment" type="Node3D" parent="."]
+
+[node name="Floor" parent="Enviroment" instance=ExtResource("1_yk27e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14.417355)
+
+[node name="BoxBox" type="Node3D" parent="."]
+
+[node name="LightBox" type="Node3D" parent="BoxBox"]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="BoxBox/LightBox"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.6798244, 0)
+omni_range = 4096.0
+
+[node name="Puck" parent="." instance=ExtResource("2_gk0pn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21596289, 3.9422388, 0.19896603)
+
+[node name="Stick" parent="." instance=ExtResource("3_r2cw0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.044657707, 0.75, 1.8111136)
+speed = 0.25
