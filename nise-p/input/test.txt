@@ -1,3 +1,14 @@
-apples
-bananas
-carrots
+active_sprite; right
+text; Jim; 0.5 0.2 0.5 1.0; This is a cruise.
+input
+active_sprite; left
+sprite; 3; default_3; right
+text; Y/N; 0.5 0.2 0.5 1.0; I can't wait to play shuffleboard!
+wait; 2
+active_sprite; right
+sprite; evil_octopus; evil_octopus_1; right
+text; Evil Octopus; 0.9 0.4 0.4 1.0; Gello Gorld
+input
+sprite;;;right
+active_sprite; left
+text; Y/N; 0.5 0.2 0.5 1.0; All Alone now

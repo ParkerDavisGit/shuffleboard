@@ -14,9 +14,9 @@ def main():
     file_name = file.name.split("/", 1)[1].split(".")[0]
     file_lines = trim_list(file.readlines())
 
-    print(file_lines)
+    final_file_lines = nise.parse_lines(file_lines)
 
-    nise.parse_lines(file_lines)
+    print(final_file_lines)
 
     return
 
