@@ -1,0 +1,1 @@
+main.py input/test.txt

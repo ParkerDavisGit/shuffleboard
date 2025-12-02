@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://dom2n7ru4geop"]
+
+[ext_resource type="Script" uid="uid://bkblr6ylqyb4i" path="res://majors/VisualNovel/Textbox/textbox.gd" id="1_p8exg"]
+[ext_resource type="Texture2D" uid="uid://bndxvbdqbsgvi" path="res://majors/VisualNovel/Assets/textbox.png" id="2_0l3g4"]
+
+[node name="Textbox" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_p8exg")
+
+[node name="TextboxImage" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_0l3g4")
+
+[node name="Text" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 52.0
+offset_right = 670.0
+offset_bottom = 183.0
+bbcode_enabled = true
+
+[node name="Speaker" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 1.0
+offset_right = 228.0
+offset_bottom = 39.0
+bbcode_enabled = true
+scroll_active = false

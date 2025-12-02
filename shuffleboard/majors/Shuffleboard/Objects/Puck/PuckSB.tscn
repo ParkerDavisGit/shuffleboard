@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwnhny0ineyfq"]
+
+[ext_resource type="Script" uid="uid://q23h7nxleg3a" path="res://majors/Shuffleboard/Objects/Puck/puck_sb.gd" id="1_gnae3"]
+[ext_resource type="Texture2D" uid="uid://dgai00bkm2je1" path="res://majors/Shuffleboard/Objects/Puck/Assets/Puck.png" id="2_ntu78"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gnae3"]
+radius = 20.0
+
+[node name="PuckSb" type="RigidBody2D"]
+gravity_scale = 0.0
+linear_damp = 0.25
+script = ExtResource("1_gnae3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_ntu78")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gnae3")
