@@ -20,7 +20,7 @@ var accepted_script_events: Dictionary = {
 func _ready() -> void:
 	SignalBus.on_script_event.connect(_on_script_event)
 	
-	open_file("dummy")
+	open_file("test")
 	read_next_line()
 
 func _input(event: InputEvent) -> void:

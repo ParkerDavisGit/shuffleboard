@@ -31,15 +31,23 @@ def parse(line: str):
             parsed_line["text"] = arguments[2]
 
         case "input": # { }
+            # Nothing to see here!
             pass
             
         case "ask": # { text, choices: [[text, jump], [text, jump]]}
-            pass
+            choices = []
+            choices.append([arguments[1], int(arguments[2])])
+            choices.append([arguments[3], int(arguments[4])])
+
+            parsed_line["text"] = arguments[0]
+            parsed_line["choices"] = choices
+
         case "wait": # { time }
             parsed_line["time"] = float(arguments[0])
         
         case "background": # { file_name }
-            pass
+            parsed_line["name"] = arguments[0]
+
         case "sprite": # { file_name, character, location }
             parsed_line["character"] = arguments[0]
             parsed_line["file_name"] = arguments[1]
@@ -49,21 +57,36 @@ def parse(line: str):
             parsed_line["location"] = arguments[0]
         
         case "move_sprite": # { name, location, time, method }
-            pass
+            parsed_line["name"] = arguments[0]
+            parsed_line["location"] = arguments[1]
+            parsed_line["time"] = float(arguments[2])
+            parsed_line["method"] = arguments[3]
+
         case "animation": # { name }
-            pass
+            parsed_line["name"] = arguments[0]
+
         case "music": # { name }
-            pass
+            parsed_line["name"] = arguments[0]
+
         case "sound_effect": # { name }
-            pass
+            parsed_line["name"] = arguments[0]
+
         case "jump": # { type, amount }
-            pass
+            parsed_line["type"] = arguments[0]
+            parsed_line["amount"] = int(arguments[1])
+
         case "set_flag": # { name, value }
-            pass
+            parsed_line["name"] = arguments[0]
+            
         case "if": # { flag, value, jump_true, jump_false }
-            pass
+            parsed_line["flag"] = arguments[0]
+            parsed_line["value"] = arguments[1]
+            parsed_line["jump_true"] = arguments[2]
+            parsed_line["jump_false"] = arguments[3]
+
         case "script": # { name }
-            pass
+            parsed_line["name"] = arguments[0]
+
         case "event":
 
             print("aple")
