@@ -46,7 +46,7 @@ def parse(line: str):
             parsed_line["time"] = float(arguments[0])
         
         case "background": # { file_name }
-            parsed_line["name"] = arguments[0]
+            parsed_line["file_name"] = arguments[0]
 
         case "sprite": # { file_name, character, location }
             parsed_line["character"] = arguments[0]

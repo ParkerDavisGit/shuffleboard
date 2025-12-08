@@ -1,0 +1,36 @@
+Tutorial:
+
+Rei: Hey! You here for the tournament?
+
+[yes] 
+- I knew it!
+[no]
+- You're not going to fool anyone with that shuffleboard stick on your back!
+
+Rei: You must be pretty good to be here, huh?
+Rei: But don't let that get to your head! The competition is steep here!
+
+Rival: Outta the way, punks.
+*Pushes*
+
+Rei: Well somebody's walking a foul line.
+
+
+Rei: Have you read the tourny pamphlet yet?
+
+[yes] (Skip Tutorial)
+[no]  (Play Tutorial)
+
+
+
+
+Captain: Ladies and Gentleshufflers, welcome to the _________'s Shuffleboard World Championship Tournament.
+Captain: We are happy to welcome aboard the world's best and brightest shufflers.
+# Francis
+Captain: Those who are ready to give it their all to prove to the world that they are truly the best.
+# Rei
+Captain: And those that are ready to put it all on the line for the grand prize.
+# Rival
+Captain: A wish from the shuffleboard god himself.
+# Cut to Y/N
+

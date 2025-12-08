@@ -7,9 +7,12 @@ class_name VisualNovelEngine
 
 @export var sprite_sheet: Control
 @export var textbox: Control
+@export var background: Background
 
 var vn_script: Array = [ ]
 var vn_index: int = 0
+
+var flag_bearer: Dictionary = { }
 
 var waiting_for_input: bool = false
 
@@ -41,14 +44,13 @@ func read_next_line() -> void:
 			display_test(vn_script[vn_index])
 		"input": # { }
 			self.waiting_for_input = true
-		"ask": # { text, choices: [[text, jump], [text, jump]]}
+		"ask": # { text, choices: [[text, jump], [text, jump], [text, jump]]}
 			##TODO
 			pass
 		"wait": # { time }
 			await get_tree().create_timer(vn_script[vn_index]["time"]).timeout
 		"background": # { file_name }
-			##TODO
-			pass
+			background.load_file(vn_script[vn_index]["file_name"])
 		"sprite": # { file_name, character, location }
 			# location: "LEFT", "RIGHT"  <- probably capital lock
 			# Can leave file_name blank to deactivate
@@ -58,6 +60,7 @@ func read_next_line() -> void:
 		"move_sprite": # { name, location, time, method }
 			# method: slide, instant
 			##TODO ## TODO a lot later
+			##
 			pass
 		"animation": # { name }
 			##TODO
@@ -71,15 +74,14 @@ func read_next_line() -> void:
 		"jump": # { type, amount }
 			# type: relative, absolute
 			self.set_vn_index(vn_script[vn_index])
-		"set_flag": # { name, value }
+		"set_flag": # { name, value, operand }
 			##TODO
 			pass
-		"if": # { flag, value, jump_true, jump_false }
+		"if": # { flag, comparison, value, jump_true, jump_false }
 			##TODO
 			pass
 		"script": # { name }
-			##TODO
-			pass
+			open_file(vn_script[vn_index]["name"])
 		"event":
 			##TODO
 			pass
@@ -120,7 +122,42 @@ func set_vn_index(index_data: Dictionary) -> void:
 		self.vn_index = index_data["amount"]
 		# Adjustment for the +1 the 'read_next_line' method gives
 		self.vn_index -= 1
-		
+
+### Flag Methods ###
+func set_flag_integer(arguments: Dictionary) -> void:
+	## arguments = { name, value, operand }
+	match arguments["operand"]:
+		"add":
+			# If the value has not been encountered before,
+			#   Default to 0 and continue from there.
+			if !self.flag_bearer.has(arguments["name"]):
+				self.flag_bearer[arguments["name"]] = 0
+			self.flag_bearer[arguments["name"]] += int(arguments["value"])
+		"set":
+			self.flag_bearer[arguments["name"]] = int(arguments["value"])
+
+func check_flag(arguments: Dictionary) -> void:
+	# arguments = { flag, comparison, value, jump_true { }, jump_false { } }
+	var flag_true: bool = false
+	match arguments["comparison"]:
+		"=":
+			flag_true = flag_bearer[arguments["flag"]] == int(arguments["value"])
+		"<":
+			flag_true = flag_bearer[arguments["flag"]] < int(arguments["value"])
+		">":
+			flag_true = flag_bearer[arguments["flag"]] > int(arguments["value"])
+		"<=":
+			flag_true = flag_bearer[arguments["flag"]] <= int(arguments["value"])
+		">=":
+			flag_true = flag_bearer[arguments["flag"]] >= int(arguments["value"])
+		"!":
+			flag_true = flag_bearer[arguments["flag"]] != int(arguments["value"])
+	
+	if flag_true:
+		set_vn_index(arguments["jump_true"])
+	else:
+		set_vn_index(arguments["jump_false"])
+
 
 func open_file(file_name: String) -> void:
 	var json_string: String = FileAccess.get_file_as_string("res://scripts/" + file_name + ".json")

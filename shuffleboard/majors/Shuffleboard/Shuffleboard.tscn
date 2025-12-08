@@ -1,8 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://cq2m2rdy4qx5p"]
+[gd_scene load_steps=7 format=3 uid="uid://cq2m2rdy4qx5p"]
 
 [ext_resource type="Script" uid="uid://dmrh53lbjpp1d" path="res://majors/Shuffleboard/Shuffleboard.gd" id="1_j4oma"]
 [ext_resource type="PackedScene" uid="uid://baw25p4svrlss" path="res://majors/Shuffleboard/Objects/Board/Board.tscn" id="2_gk0pn"]
 [ext_resource type="PackedScene" uid="uid://bwnhny0ineyfq" path="res://majors/Shuffleboard/Objects/Puck/PuckSB.tscn" id="3_r2cw0"]
+[ext_resource type="Script" uid="uid://cne7llrkg8vub" path="res://majors/Shuffleboard/test.gd" id="4_j4oma"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_r2cw0"]
+size = Vector2(5.715, 3.075)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_j4oma"]
+viewport_path = NodePath("ShuffleboardCamera/SubViewportContainer/SubViewport")
 
 [node name="Shuffleboard" type="Node2D"]
 script = ExtResource("1_j4oma")
@@ -12,3 +19,41 @@ position = Vector2(0, -1352)
 
 [node name="PuckSb" parent="." instance=ExtResource("3_r2cw0")]
 position = Vector2(579, 572)
+active = true
+
+[node name="PuckSb2" parent="." instance=ExtResource("3_r2cw0")]
+position = Vector2(302, 403)
+
+[node name="ShuffleboardCamera" type="Node2D" parent="."]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="ShuffleboardCamera"]
+position = Vector2(233, 326)
+mesh = SubResource("PlaneMesh_r2cw0")
+texture = SubResource("ViewportTexture_j4oma")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="ShuffleboardCamera"]
+offset_left = -18.0
+offset_right = 22.0
+offset_bottom = 40.0
+
+[node name="SubViewport" type="SubViewport" parent="ShuffleboardCamera/SubViewportContainer"]
+disable_3d = true
+size = Vector2i(1036, 240)
+render_target_update_mode = 4
+script = ExtResource("4_j4oma")
+
+[node name="Camera2D" type="Camera2D" parent="ShuffleboardCamera/SubViewportContainer/SubViewport"]
+position = Vector2(500, -500)
+
+[node name="SubViewportContainer2" type="SubViewportContainer" parent="ShuffleboardCamera"]
+visible = false
+offset_right = 1036.0
+offset_bottom = 240.0
+
+[node name="SubViewport" type="SubViewport" parent="ShuffleboardCamera/SubViewportContainer2"]
+handle_input_locally = false
+size = Vector2i(1036, 240)
+render_target_update_mode = 0
+
+[node name="Camera2D" type="Camera2D" parent="ShuffleboardCamera/SubViewportContainer2/SubViewport"]
+position = Vector2(500, -500)
