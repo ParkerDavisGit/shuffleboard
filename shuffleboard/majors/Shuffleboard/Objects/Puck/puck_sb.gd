@@ -13,15 +13,9 @@ func _input(event: InputEvent) -> void:
 	
 	if event.is_action_pressed("Click"):
 		moving = true
-		apply_impulse(Vector2(0, -500))
+		apply_impulse(Vector2(0, -800))
 
 func _physics_process(delta: float) -> void:
-	if not active:
-		return
-	
-	if not moving:
-		return
-	
 	if self.linear_velocity.length() < 7:
 		self.linear_velocity = Vector2.ZERO
 		moving = false

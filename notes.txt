@@ -22,6 +22,10 @@ Rei: Have you read the tourny pamphlet yet?
 [no]  (Play Tutorial)
 
 
+During Rei intro game, if you win
+Blank Stare Rei: ...
+Rei: "Hehe, you're pretty good."
+
 
 
 Captain: Ladies and Gentleshufflers, welcome to the _________'s Shuffleboard World Championship Tournament.

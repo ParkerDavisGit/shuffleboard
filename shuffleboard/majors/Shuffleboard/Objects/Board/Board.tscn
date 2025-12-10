@@ -1,13 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://baw25p4svrlss"]
+[gd_scene load_steps=3 format=3 uid="uid://baw25p4svrlss"]
+
+[ext_resource type="Texture2D" uid="uid://fex7pcubpjyh" path="res://assets/board/blank.png" id="1_p04to"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_besqc"]
-size = Vector2(400, 2000)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_besqc"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_besqc"]
-material = SubResource("StandardMaterial3D_besqc")
-size = Vector3(400, 2000, 1)
+size = Vector2(400, 2456)
 
 [node name="Board" type="Node2D"]
 
@@ -15,9 +11,12 @@ size = Vector3(400, 2000, 1)
 position = Vector2(576, 1000)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 228)
 shape = SubResource("RectangleShape2D_besqc")
 
-[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
-modulate = Color(1, 0.7398153, 0.58220506, 1)
-position = Vector2(576, 1000)
-mesh = SubResource("BoxMesh_besqc")
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 376.0
+offset_right = 480.0
+offset_bottom = 639.0
+scale = Vector2(3.845, 3.845)
+texture = ExtResource("1_p04to")
