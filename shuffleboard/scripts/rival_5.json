@@ -1,0 +1,18 @@
+[
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rival",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "text": "Rival 5"
+  },
+  {
+    "opcode": "end"
+  }
+]

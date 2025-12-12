@@ -1,1 +1,15 @@
-main.py input/test.txt
+main.py input/intro_cutscene.txt
+main.py input/rei_tutorial.txt
+main.py input/rei_1.txt
+main.py input/rei_2.txt
+main.py input/rei_3.txt
+main.py input/rei_4.txt
+main.py input/rei_5.txt
+main.py input/rival_1.txt
+main.py input/rival_2.txt
+main.py input/rival_3.txt
+main.py input/rival_4.txt
+main.py input/rival_5.txt
+main.py input/tournament_1.txt
+main.py input/tournament_2.txt
+main.py input/tournament_3.txt

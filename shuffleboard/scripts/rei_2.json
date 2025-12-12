@@ -1,0 +1,18 @@
+[
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "text": "Rei 2"
+  },
+  {
+    "opcode": "end"
+  }
+]

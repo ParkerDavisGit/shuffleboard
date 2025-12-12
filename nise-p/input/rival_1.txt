@@ -1,0 +1,17 @@
+background; black
+sprite; rival; idle; right
+sprite; yn; idle; left
+active_sprite; right
+text; Boardicus; 0 0 0 1; What?
+text; Boardicus; 0 0 0 1; What did you just say to me?
+ask; ; 0; ; Uhh, nevermind; 1; relative; Let's hang out!; 3; relative
+text; Boardicus; 0 0 0 1; That's what I thought.
+end
+text; Boardicus; 0 0 0 1; WHAT?!
+text; Boardicus; 0 0 0 1; YOU-
+text; Boardicus; 0 0 0 1; YOU-
+text; Boardicus; 0 0 0 1; You don't realize who you're messing with, do you.
+text; Boardicus; 0 0 0 1; 
+text; Boardicus; 0 0 0 1; 
+text; Boardicus; 0 0 0 1; 
+end

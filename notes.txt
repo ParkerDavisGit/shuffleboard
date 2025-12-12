@@ -29,12 +29,218 @@ Rei: "Hehe, you're pretty good."
 
 
 Captain: Ladies and Gentleshufflers, welcome to the _________'s Shuffleboard World Championship Tournament.
-Captain: We are happy to welcome aboard the world's best and brightest shufflers.
 # Francis
-Captain: Those who are ready to give it their all to prove to the world that they are truly the best.
+Captain: We are happy to welcome aboard the world's best and brightest shufflers.
 # Rei
-Captain: And those that are ready to put it all on the line for the grand prize.
+Captain: Those who are ready to give it their all to prove to the world that they are truly the best.
 # Rival
-Captain: A wish from the shuffleboard god himself.
+Captain: And those that are ready to put it all on the line for the grand prize...
 # Cut to Y/N
+Captain: A wish from the shuffleboard god himself.
+Captain: I wish you all good luck.
+Captain: Now then, let us get this welcome feast underway.
 
+
+
+
+
+
+
+
+Rei 1
+Hey there, Y/N!
+You here to train?
+happy: We could play a few rounds if you like
+idle: Huh?
+blank: ...hang out?
+idle: This is a tournament, silly!
+[you're right]
+- Then they played shuffleboard.
+[hang out]
+- idle: ... :D
+Happy: Well ok! It could be fun.
+idle: What do you want to do?
+[arcade]
+[arcade]
+[arcade]
+Ar... cade?
+What's that?
+Y/N: ...
+
+
+
+
+
+
+Rei 2
+
+Ice cream.
+
+blank: Y/N... This is pointless.
+idle: We're in the second round of the tournament!
+I don't have time to be distracted.
+happy: I've gotta train!
+Y/N: ...
+idle: You're not listening to me!
+
+
+[If you say so]
+
+[Want ice cream?]
+
+
+[I understand]
+- "Good"
+- "I'll see you on the board, Y/N"
+[Play shuffleboard]
+- Cover eyes: "You..."
+- Happy: "Then I'll have to show you why you should stay away."
+
+
+
+
+Rei 3
+blank: hang out?
+blank: again?
+happy: If you insist~!
+CUT TO BLACK
+I tried to warn you,
+Y/N...
+Cut to attack.
+You're to kind for your own good.
+I hope you had fun, but with this, I'll have won.
+By default.
+Cut to black.
+*Clack*
+Cut to regular VN.
+YOU!
+HOW DO YOU KEEP BESTING ME LIKE THIS!
+[Leave]
+[Want to hang out?]
+cover eyes: Hang out?
+Hang out??
+idle: You really are an idiot.
+Fine
+happy: One more game,
+And I'll chase you off this boat for good.
+*And then they played shuffleboard*
+
+*cut back*
+blank: ...
+cry: why?
+cry: why can't I beat you?
+cry: ...
+sob: mother...
+sob: i'm sorry mother...
+sob: i can't finish your order
+*cut to black*
+*cut to next day*
+
+
+
+
+
+Rival 1
+What?
+What did you just say to me?
+[Uhh, nevermind]
+- That's what I thought.
+
+[Let's hang out!]
+WHAT.
+YOU
+YOU
+You don't realize who you're messing with, do you.
+
+[I'm sorry, I'll leave]
+- Heh, scram, punk. Before you regret ever looking at me.
+
+[Let's hang out!]
+...
+Y/N: ...
+You will regret that.
+
+*Leaves*
+
+
+
+
+Rival 2
+YOU PUNK!
+Why are you so insistent?!!
+Leave me alone, unless you want to learn a real lesson.
+[From the kid again?]
+- Wha?!
+- ...
+- I can't afford him again...
+
+[I'm ready to learn!]
+- You're a weirdo.
+...
+Just leave me alone!
+I am here to win. I am a shuffleboard machine. All this friend crap is meaningless.
+Not like I could enjoy it.
+[Ok]
+[Hang out?]
+You know what?
+Fine. You win.
+We can 'hang out'.
+I'll show you why you don't want to hang out with me.
+*cut to black*
+*cut to monopoly*
+
+Rival: HAHAHA, you must now pay me 90 shufflebucks!
+Y/N: ...
+Rival: You have no right to cry. You forked over the rights to me already!
+Rival: HAHAHA!
+Francis: You sure are enjoying yourself, kid.
+Rival: What?
+Francis: You didn't seem the type.
+Rival: I am NOT enjoying myself.
+Y/N: ...
+Rival: ARGHHH!
+*Rival leaves*
+*Cut to hallway*
+
+Rival: Stop following me...
+[Ok]
+*Cut to black then to boat menu*
+[Play Shuffleboard]
+And then they played shuffleboard
+
+
+
+Rival 3
+
+
+I don't care
+I can't care
+[You can let yourself care]
+- Cut into shuffleboard game.
+
+
+
+
+
+
+
+
+
+
+
+Finale:
+
+---: Goodbye, Y/N
+*They leave*
+
+Captain: Congratulations, Y/N!
+
+
+
+God gets summoned.
+Is like, "imma eat you now"
+Fight god.
+
+Get wish with remnants of god's powers.
+Wish.
+fin

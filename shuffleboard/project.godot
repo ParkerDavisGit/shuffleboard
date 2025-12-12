@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="shuffleboard"
-run/main_scene="uid://cq2m2rdy4qx5p"
+run/main_scene="uid://mhu6ooqkissc"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

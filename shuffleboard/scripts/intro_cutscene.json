@@ -1,0 +1,467 @@
+[
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "apples",
+			"color": [
+				1.0,
+				0.5,
+				0.5,
+				1.0
+			]
+		},
+		"text": "And then the played shuffleboard"
+	},
+	{
+		"opcode": "end"
+	},
+	{
+		"opcode": "jump",
+		"amount": 9.0,
+		"type": "absolute"
+	},
+	{
+		"opcode": "background",
+		"file_name": "outside_boat_docked_2"
+	},
+	{
+		"opcode": "wait",
+		"time": 2.0
+	},
+	{
+		"opcode": "background",
+		"file_name": "outside_boat_docked"
+	},
+	{
+		"opcode": "wait",
+		"time": 2.0
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "",
+			"color": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"text": "Shuffleboard"
+	},
+	{
+		"opcode": "wait",
+		"time": 0.69999999999999996
+	},
+	{
+		"opcode": "sprite",
+		"character": "yn",
+		"file_name": "idle",
+		"location": "left"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Y/N",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "..."
+	},
+	{
+		"opcode": "sprite",
+		"character": "rei",
+		"file_name": "idle",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Hey there!"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "You here for the tournament too?"
+	},
+	{
+		"opcode": "ask",
+		"text": "",
+		"choices": [
+			[
+				"",
+				{
+					"amount": 0.0,
+					"type": ""
+				}
+			],
+			[
+				"Yes",
+				{
+					"amount": 1.0,
+					"type": "relative"
+				}
+			],
+			[
+				"No",
+				{
+					"amount": 3.0,
+					"type": "relative"
+				}
+			]
+		]
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "I knew it!"
+	},
+	{
+		"opcode": "jump",
+		"amount": 4.0,
+		"type": "relative"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "You can't lie to me!"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "You're not going to fool anyone with that shuffleboard stick on your back!"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "That means you must be pretty good, huh?"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "But don't let that get to your head! The competition is steep here!"
+	},
+	{
+		"opcode": "sprite",
+		"character": "rival",
+		"file_name": "angry",
+		"location": "left"
+	},
+	{
+		"opcode": "active_sprite",
+		"location": "left"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Bradicus",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Out'a the way, punks."
+	},
+	{
+		"opcode": "sprite",
+		"character": "yn",
+		"file_name": "idle",
+		"location": "left"
+	},
+	{
+		"opcode": "sprite",
+		"character": "rival",
+		"file_name": "angry",
+		"location": "right"
+	},
+	{
+		"opcode": "active_sprite",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "*SLAM*"
+	},
+	{
+		"opcode": "sprite",
+		"character": "rei",
+		"file_name": "idle",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Well, somebody's walking a foul line."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "That's Bradicus. The most radically cool and powerful shuffleboarder around."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "He's the favorite to win right now."
+	},
+	{
+		"opcode": "sprite",
+		"character": "rei",
+		"file_name": "happy",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "But I'm sure we'll be fine!"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Oh! Looks like it's our turn to board."
+	},
+	{
+		"opcode": "sprite",
+		"character": "",
+		"file_name": "",
+		"location": "right"
+	},
+	{
+		"opcode": "sprite",
+		"character": "",
+		"file_name": "",
+		"location": "left"
+	},
+	{
+		"opcode": "background",
+		"file_name": "black"
+	},
+	{
+		"opcode": "wait",
+		"time": 2.0
+	},
+	{
+		"opcode": "background",
+		"file_name": "dining_hall"
+	},
+	{
+		"opcode": "sprite",
+		"character": "captain",
+		"file_name": "idle",
+		"location": "right"
+	},
+	{
+		"opcode": "active_sprite",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Shufflers and boarders, welcome to the HGS Shovilla's Shuffleboard World Championship Tournament."
+	},
+	{
+		"opcode": "sprite",
+		"character": "",
+		"file_name": "",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "We are happy to welcome aboard the world's best and brightest shufflers."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Those who are ready to give it their all to prove to the world that they are truly the best."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "And those that are ready to put it all on the line for the grand prize..."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "A wish from the shuffleboard god himself."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "I personally wish you all the best of luck."
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Captain",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Now then, let us get this welcome feast underway!"
+	},
+	{
+		"opcode": "end"
+	}
+]

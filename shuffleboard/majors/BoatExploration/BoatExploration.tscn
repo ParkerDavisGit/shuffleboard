@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://dk4pkrwhcb0vs"]
+
+[ext_resource type="Script" uid="uid://be4opeqqkc2wp" path="res://majors/BoatExploration/BoatExploration.gd" id="1_5h8ft"]
+[ext_resource type="Texture2D" uid="uid://boso0canqftvy" path="res://assets/background/cruise.jpg" id="2_wjuxg"]
+[ext_resource type="Texture2D" uid="uid://vqehr60nqk82" path="res://assets/icons/boat_exploration/luigi.png" id="3_mdg1b"]
+[ext_resource type="Texture2D" uid="uid://c7bktg74286tf" path="res://assets/icons/boat_exploration/robin.png" id="4_ukyvk"]
+[ext_resource type="Texture2D" uid="uid://bvs4co78ovj11" path="res://assets/icons/boat_exploration/rust.png" id="5_ukyvk"]
+
+[node name="BoatExploration" type="Node2D"]
+script = ExtResource("1_5h8ft")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 649.0
+texture = ExtResource("2_wjuxg")
+expand_mode = 1
+
+[node name="ReiButton" type="TextureButton" parent="."]
+visible = false
+offset_left = 144.99998
+offset_top = 353.99997
+offset_right = 521.0
+offset_bottom = 704.0
+scale = Vector2(0.455, 0.455)
+texture_normal = ExtResource("3_mdg1b")
+
+[node name="ReiButtonTutorial" type="TextureButton" parent="."]
+visible = false
+offset_left = 480.0
+offset_top = 468.0
+offset_right = 856.0
+offset_bottom = 818.0
+scale = Vector2(0.455, 0.455)
+texture_normal = ExtResource("3_mdg1b")
+
+[node name="RivalButton" type="TextureButton" parent="."]
+visible = false
+offset_left = 881.0
+offset_top = 319.0
+offset_right = 1278.0
+offset_bottom = 841.0
+scale = Vector2(0.435, 0.435)
+texture_normal = ExtResource("4_ukyvk")
+
+[node name="TournyMatchButton" type="TextureButton" parent="."]
+visible = false
+offset_left = 498.99997
+offset_top = 234.0
+offset_right = 959.0
+offset_bottom = 756.0
+scale = Vector2(0.435, 0.435)
+texture_normal = ExtResource("5_ukyvk")
+
+[connection signal="pressed" from="ReiButton" to="." method="_on_rei_button_pressed"]
+[connection signal="pressed" from="ReiButtonTutorial" to="." method="_on_rei_button_tutorial_pressed"]
+[connection signal="pressed" from="RivalButton" to="." method="_on_rival_button_pressed"]
+[connection signal="pressed" from="TournyMatchButton" to="." method="_on_tourny_match_button_pressed"]

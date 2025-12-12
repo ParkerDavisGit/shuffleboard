@@ -1,0 +1,212 @@
+[
+	{
+		"opcode": "jump",
+		"amount": 9.0,
+		"type": "absolute"
+	},
+	{
+		"opcode": "background",
+		"file_name": "outside_boat_docked_2"
+	},
+	{
+		"opcode": "wait",
+		"time": 2.0
+	},
+	{
+		"opcode": "background",
+		"file_name": "outside_boat_docked"
+	},
+	{
+		"opcode": "wait",
+		"time": 2.0
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "",
+			"color": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		"text": "Shuffleboard"
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "wait",
+		"time": 0.69999999999999996
+	},
+	{
+		"opcode": "sprite",
+		"character": "yn",
+		"file_name": "idle",
+		"location": "left"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Y/N",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "..."
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "sprite",
+		"character": "rei",
+		"file_name": "idle",
+		"location": "right"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "Hey there!"
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "You here for the tournament too?"
+	},
+	{
+		"opcode": "ask",
+		"text": "",
+		"choices": [
+			[
+				"",
+				{
+					"amount": 0.0,
+					"type": ""
+				}
+			],
+			[
+				"Yes",
+				{
+					"amount": 1.0,
+					"type": "relative"
+				}
+			],
+			[
+				"No",
+				{
+					"amount": 3.0,
+					"type": "relative"
+				}
+			]
+		]
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "I knew it!"
+	},
+	{
+		"opcode": "jump",
+		"amount": 4.0,
+		"type": "relative"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "You can't lie to me!"
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "You're not going to fool anyone with that shuffleboard stick on your back!"
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "That means you must be pretty good, huh?"
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "text",
+		"speaker_data": {
+			"speaker": "Rei",
+			"color": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		},
+		"text": "But don't let that get to your head! The competition is steep here!"
+	},
+	{
+		"opcode": "input"
+	},
+	{
+		"opcode": "end"
+	}
+]

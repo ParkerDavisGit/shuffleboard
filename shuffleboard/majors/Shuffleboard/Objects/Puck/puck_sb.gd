@@ -15,6 +15,7 @@ func _input(event: InputEvent) -> void:
 		moving = true
 		apply_impulse(Vector2(0, -800))
 
+@warning_ignore("unused_parameter")
 func _physics_process(delta: float) -> void:
 	if self.linear_velocity.length() < 7:
 		self.linear_velocity = Vector2.ZERO

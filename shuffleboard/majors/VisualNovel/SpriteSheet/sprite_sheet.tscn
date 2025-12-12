@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://c508l8smpsjcb"]
 
 [ext_resource type="Script" uid="uid://dnkhhq1p44hfu" path="res://majors/VisualNovel/SpriteSheet/sprite_sheet.gd" id="1_iux2k"]
-[ext_resource type="Texture2D" uid="uid://cnrtwjfsf28pr" path="res://assets/characters/default_1.png" id="2_of5ym"]
-[ext_resource type="Texture2D" uid="uid://d2sfxngtc285y" path="res://assets/characters/default_2.png" id="3_fhg2f"]
+[ext_resource type="Texture2D" uid="uid://b2ybnocr4oxqc" path="res://assets/characters/rei/idle.png" id="2_iux2k"]
+[ext_resource type="Texture2D" uid="uid://crmbdh4n05tpe" path="res://assets/characters/rei/happy.png" id="3_iux2k"]
 
 [node name="SpriteSheet" type="Control"]
 layout_mode = 3
@@ -17,26 +17,26 @@ focused_scale = Vector2(0.5, 0.5)
 modulate = Color(1, 1, 1, 0.6745098)
 layout_mode = 0
 offset_left = 905.0
-offset_top = 330.0
+offset_top = 250.0
 offset_right = 1705.0
-offset_bottom = 1130.0
-scale = Vector2(0.45, 0.45)
+offset_bottom = 1050.0
 use_top_left = true
 
 [node name="CharRight" type="TextureRect" parent="CenterContainerRight"]
+visible = false
 layout_mode = 2
-texture = ExtResource("2_of5ym")
+texture = ExtResource("2_iux2k")
 
 [node name="CenterContainerLeft" type="CenterContainer" parent="."]
 modulate = Color(1, 1, 1, 0.6745098)
 layout_mode = 0
 offset_left = 305.0
-offset_top = 330.0
+offset_top = 250.0
 offset_right = 1105.0
-offset_bottom = 1130.0
-scale = Vector2(0.45, 0.45)
+offset_bottom = 1050.0
 use_top_left = true
 
 [node name="CharLeft" type="TextureRect" parent="CenterContainerLeft"]
+visible = false
 layout_mode = 2
-texture = ExtResource("3_fhg2f")
+texture = ExtResource("3_iux2k")

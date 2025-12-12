@@ -1,0 +1,101 @@
+background; black
+sprite; yn; idle; left
+sprite; rei; idle; right
+active_sprite; right
+text; Rei; 0 0 0 1; Hey there, Y/N!
+text; Rei; 0 0 0 1; You here to train?
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; We could play a few rounds if you like
+active_sprite; left
+text; Y/N; 0 0 0 1; ...
+active_sprite; right
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; Huh?
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; ...hang out?
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; This is a tournament, silly!
+ask;;1;relative; You're right.; 1; relative; Let's hang out!; 3; relative
+display; Then they played shuffleboard.
+end
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; ...
+text; Rei; 0 0 0 1; Well ok.
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; It could be interesting!
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; What do you want to do?
+ask; Arcade; 1; relative; Arcade; 1; relative; Arcade; 1; relative
+text; Rei; 0 0 0 1; Ar... cade?
+text; Rei; 0 0 0 1; What's that?
+active_sprite; left
+text; Y/N; 0 0 0 1; ...
+active_sprite; right
+background; black
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; woooaaahhh
+text; Rei; 0 0 0 1; It's like a casino!
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; But, it's for 'fun', you said?
+text; Rei; 0 0 0 1; NOT for ripping off customers, you said?
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; mother would not approve
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; Let's go!
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+background; black
+sprite; yn; idle; left
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; Ahah!
+text; Rei; 0 0 0 1; I gotchu!
+text; Rei; 0 0 0 1; Let's play another!
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+background; black
+sprite; yn; idle; left
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; But why is he a plumber?
+text; Rei; 0 0 0 1; That doesn't make any sense.
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+background; black
+sprite; yn; idle; left
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; That sure was an interesting experience, Y/N.
+active_sprite; left
+text; Y/N; 0 0 0 1; ...
+active_sprite; right
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; fun?
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; Ahahah! Of course not!
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; I wouldn't have fun here. This is a serious competition.
+text; Rei; 0 0 0 1; Mother wouldn't-
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; Nevermind!
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; Look at the time!
+text; Rei; 0 0 0 1; I've gotta get back to training!
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; And of course you can join me!
+display; Then they played shuffleboard.
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+end

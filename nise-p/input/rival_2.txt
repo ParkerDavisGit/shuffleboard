@@ -1,0 +1,64 @@
+background; black
+sprite; rival; idle; right
+sprite; yn; idle; left
+active_sprite; right
+text; Boardicus; 0 0 0 1; YOU PUNK!!!
+text; Boardicus; 0 0 0 1; Why are you so insistent on bothering me?!
+text; Boardicus; 0 0 0 1; Leave me alone, or I'll have to teach you another lesson.
+ask; ; 0; ; Through the kid again?; 1; relative; I'm ready to learn!; 5; relative
+text; Boardicus; 0 0 0 1; Wha?!
+text; Boardicus; 0 0 0 1; ...
+text; Boardicus; 0 0 0 1; I can't afford him again...
+jump; 2; relative
+text; Boardicus; 0 0 0 1; You're a weirdo.
+text; Boardicus; 0 0 0 1; ...
+text; Boardicus; 0 0 0 1; Just leave me alone!
+text; Boardicus; 0 0 0 1; I am here to win. I am a shuffleboard machine.
+text; Boardicus; 0 0 0 1; All this friend crap is meaningless.
+text; Boardicus; 0 0 0 1; not like I could enjoy it anyways.
+ask; ; 0; ; I'll leave you alone; 1; relative; Hang out?; 8; relative
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+end
+text; Boardicus; 0 0 0 1; You know what?
+text; Boardicus; 0 0 0 1; Fine. You win.
+text; Boardicus; 0 0 0 1; We can 'hang out'.
+text; Boardicus; 0 0 0 1; I'll show you why you don't want to hang out with me.
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+background; black
+sprite; rival; idle; right
+sprite; yn; idle; left
+text; Boardicus; 0 0 0 1; HAHAHA, you must now pay me 90 shufflebucks!
+text; Y/N; 0 0 0 1; ...
+text; Boardicus; 0 0 0 1; You have no right to cry. You forked over the rights to me already!
+text; Boardicus; 0 0 0 1; HAHAHA!
+text; Francis; 0 0 0 1; You sure are enjoying yourself, kid.
+text; Boardicus; 0 0 0 1; What?
+text; Francis; 0 0 0 1; Sorry, you just didn't seem the type at first.
+text; Boardicus; 0 0 0 1; I am NOT the type to enjoy myself.
+text; Y/N; 0 0 0 1; ...
+text; Boardicus; 0 0 0 1; ARGHH!
+wait; 1
+sprite;;;right
+background; black
+sprite;;;left
+textbox; off
+wait; 2
+textbox; on
+background; black
+sprite; rival; idle; right
+sprite; yn; idle; left
+text; Boardicus; 0 0 0 1; Stop following me...
+ask; ;0;; Ok; 1; relative; Play shuffleboard?; 2; relative
+end
+display; And then they played shuffleboard
+end

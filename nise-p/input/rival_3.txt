@@ -1,0 +1,2 @@
+text; Rival; 1 1 1 1; Rival 3
+end

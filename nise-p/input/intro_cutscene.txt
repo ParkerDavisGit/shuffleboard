@@ -1,0 +1,51 @@
+text; apples; 1 .5 .5 1; And then the played shuffleboard
+end
+jump; 9; absolute
+background; outside_boat_docked_2
+wait; 2
+background; outside_boat_docked
+wait; 2
+text; ; 0 0 0 0; Shuffleboard
+wait; .7
+sprite; yn; idle; left
+text; Y/N; 1 1 1 1; ...
+sprite; rei; idle; right
+text; Rei; 1 1 1 1; Hey there!
+text; Rei; 1 1 1 1; You here for the tournament too?
+ask;;0;; Yes; 1; relative; No; 3; relative
+text; Rei; 1 1 1 1; I knew it!
+jump; 4; relative
+text; Rei; 1 1 1 1; You can't lie to me!
+text; Rei; 1 1 1 1; You're not going to fool anyone with that shuffleboard stick on your back!
+text; Rei; 1 1 1 1; That means you must be pretty good, huh?
+text; Rei; 1 1 1 1; But don't let that get to your head! The competition is steep here!
+sprite; rival; angry; left
+active_sprite; left
+text; Bradicus; 1 1 1 1; Out'a the way, punks.
+sprite; yn; idle; left
+sprite; rival; angry; right
+active_sprite; right
+text; ; 1 1 1 1; *SLAM*
+sprite; rei; idle; right
+text; Rei; 1 1 1 1; Well, somebody's walking a foul line.
+text; Rei; 1 1 1 1; That's Bradicus. The most radically cool and powerful shuffleboarder around.
+text; Rei; 1 1 1 1; He's the favorite to win right now.
+sprite; rei; happy; right
+text; Rei; 1 1 1 1; But I'm sure we'll be fine!
+text; Rei; 1 1 1 1; Oh! Looks like it's our turn to board.
+sprite;;;right
+sprite;;;left
+background; black
+wait; 2
+background; dining_hall
+sprite; captain; idle; right
+active_sprite; right
+text; Captain; 1 1 1 1; Shufflers and boarders, welcome to the HGS Shovilla's Shuffleboard World Championship Tournament.
+sprite;;;right
+text; Captain; 1 1 1 1; We are happy to welcome aboard the world's best and brightest shufflers.
+text; Captain; 1 1 1 1; Those who are ready to give it their all to prove to the world that they are truly the best.
+text; Captain; 1 1 1 1; And those that are ready to put it all on the line for the grand prize...
+text; Captain; 1 1 1 1; A wish from the shuffleboard god himself.
+text; Captain; 1 1 1 1; I personally wish you all the best of luck.
+text; Captain; 1 1 1 1; Now then, let us get this welcome feast underway!
+end

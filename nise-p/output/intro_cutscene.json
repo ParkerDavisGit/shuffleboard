@@ -1,0 +1,60 @@
+[
+  {
+    "opcode": "background",
+    "file_name": "outside_boat_docked_2"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "background",
+    "file_name": "outside_boat_docked"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "text": "Shuffleboard"
+  },
+  {
+    "opcode": "input"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "active_sprite",
+    "location": "left"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Y/N",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "end"
+  }
+]

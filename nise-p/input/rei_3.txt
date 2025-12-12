@@ -1,0 +1,65 @@
+background; black
+sprite; yn; idle; left
+sprite; rei; blank; right
+active_sprite; right
+text; Rei; 0 0 0 1; hang out?
+text; Rei; 0 0 0 1; again?
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; If you insist~!
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+text; Rei; 0 0 0 1; I tried to warn you,
+text; Rei; 0 0 0 1; Y/N...
+background; black
+text; Rei; 0 0 0 1; You're too kind for your own good.
+text; Rei; 0 0 0 1; I hope you had fun, but with this, I'll have won the tournament.
+background; black
+textbox; off
+wait; 1
+textbox; on
+text; ; 0 0 0 1; *CLACK*
+background; black
+sprite; yn; idle; left
+sprite; rei; angry; right
+text; Rei; 0 0 0 1; YOU!
+text; Rei; 0 0 0 1; HOW DO YOU KEEP BEATING ME?!
+ask;;0;; Leave; 1; relative; Want to play a game?; 3; relative
+wait; 1
+end
+sprite; rei; cover; right
+text; Rei; 0 0 0 1; A game?
+text; Rei; 0 0 0 1; You want to play a game?
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; You really are an idiot.
+text; Rei; 0 0 0 1; Fine.
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; One more game is all I need to chase you off this boat for good.
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 1
+display; And then they played shuffleboard.
+wait; 2.3
+textbox; on
+background; black
+sprite; yn; idle; left
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; ...
+text; Rei; 0 0 0 1; why?
+sprite; rei; sad; right
+text; Rei; 0 0 0 1; Why?
+text; Rei; 0 0 0 1; Why can't I beat you?
+text; Rei; 0 0 0 1; ...
+sprite; rei; sob; right
+text; Rei; 0 0 0 1; mother...
+text; Rei; 0 0 0 1; I'm sorry mother...
+text; Rei; 0 0 0 1; I can't do it.
+text; Rei; 0 0 0 1; I'm a bad girl.
+text; Rei; 0 0 0 1; Please forgive me.
+text; Y/N; 0 0 0 1; ...
+end

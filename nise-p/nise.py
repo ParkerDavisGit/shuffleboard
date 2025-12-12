@@ -29,15 +29,22 @@ def parse(line: str):
 
             parsed_line["speaker_data"] = speaker_data
             parsed_line["text"] = arguments[2]
+        
+        case "display":
+            parsed_line["text"] = arguments[0]
+        
+        case "textbox":
+            parsed_line["operation"] = arguments[0]
 
         case "input": # { }
             # Nothing to see here!
             pass
             
-        case "ask": # { text, choices: [[text, jump], [text, jump]]}
+        case "ask": # { choices: [[text, {amount, type}], [text, {amount, type}], [text, {amount, type}]]}
             choices = []
-            choices.append([arguments[1], int(arguments[2])])
-            choices.append([arguments[3], int(arguments[4])])
+            choices.append([arguments[0], {"amount": int(arguments[1]), "type": arguments[2]}])
+            choices.append([arguments[3], {"amount": int(arguments[4]), "type": arguments[5]}])
+            choices.append([arguments[6], {"amount": int(arguments[7]), "type": arguments[8]}])
 
             parsed_line["text"] = arguments[0]
             parsed_line["choices"] = choices
@@ -72,8 +79,8 @@ def parse(line: str):
             parsed_line["name"] = arguments[0]
 
         case "jump": # { type, amount }
-            parsed_line["type"] = arguments[0]
-            parsed_line["amount"] = int(arguments[1])
+            parsed_line["amount"] = int(arguments[0])
+            parsed_line["type"] = arguments[1]
 
         case "set_flag": # { name, value }
             parsed_line["name"] = arguments[0]
@@ -91,6 +98,9 @@ def parse(line: str):
 
             print("aple")
             pass
+        case "end":
+            pass    
+        
         case _:
             print("Oh no!")
             pass

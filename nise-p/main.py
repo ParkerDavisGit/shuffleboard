@@ -17,7 +17,7 @@ def main():
 
     final_file_lines = nise.parse_lines(file_lines)
 
-    output_file = open(f"output/{file_name}.json", "w")
+    output_file = open(f"../shuffleboard/scripts/{file_name}.json", "w")
     output_file.write(json.dumps(final_file_lines, indent=2))
 
     return
