@@ -74,7 +74,7 @@ visible = false
 layout_mode = 0
 offset_left = 39.0
 offset_top = 142.0
-offset_right = 1118.0
+offset_right = 1111.0
 offset_bottom = 282.0
 
 [node name="Display" type="RichTextLabel" parent="Panel"]

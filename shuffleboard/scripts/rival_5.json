@@ -2,7 +2,7 @@
   {
     "opcode": "text",
     "speaker_data": {
-      "speaker": "Rival",
+      "speaker": "",
       "color": [
         1.0,
         1.0,
@@ -10,7 +10,7 @@
         1.0
       ]
     },
-    "text": "Rival 5"
+    "text": "They played shuffleboard."
   },
   {
     "opcode": "end"

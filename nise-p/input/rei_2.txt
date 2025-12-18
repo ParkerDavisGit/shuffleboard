@@ -1,2 +1,73 @@
-text; Rei; 1 1 1 1; Rei 2
+background; gym
+sprite; yn; idle; left
+sprite; rei; idle; right
+active_sprite; right
+text; Rei; 0 0 0 1; Again?
+text; Rei; 0 0 0 1; You may have accepted how you're losing the next round.
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; But I've gotta train!
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; it's what I was told to do.
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; So I don't have time for any more distractions.
+text; Y/N; 0 0 0 1; ...
+text; Rei; 0 0 0 1; You're not listening to me.
+ask;;0;; I guess we can train; 1; relative; Want to get ice cream?; 3; relative
+display; And then they played shuffleboard.
+end
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; ...
+text; Rei; 0 0 0 1; ...
+text; Rei; 0 0 0 1; fine
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+background; ice_cream
+sprite; yn; idle; left
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; Y/N
+text; Rei; 0 0 0 1; Why do you not train?
+text; Rei; 0 0 0 1; I saw your last match.
+text; Rei; 0 0 0 1; Why do you not prepare for the next?
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; is your goal here not important to you?
+ask;;0;; It is; 1; relative; It is not; 1; relative
+text; Rei; 0 0 0 1; ...
+text; Rei; 0 0 0 1; i don't understand you.
+text; Rei; 0 0 0 1; ...
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; Leave me alone.
+text; Rei; 0 0 0 1; You're weak and lazy.
+text; Rei; 0 0 0 1; You're a bad influence for me.
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; Mother wouldn't approve.
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; So if you approach me again.
+sprite; rei; blank; right
+text; Rei; 0 0 0 1; I'll make you regret it.
+ask;; 0;; I understand; 1; relative; Play shuffleboard; 10; relative
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; Good.
+text; Rei; 0 0 0 1; I'll see you on the board, Y/N
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 2
+textbox; on
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; You...
+sprite; rei; happy; right
+text; Rei; 0 0 0 1; Then I'll have to show you why you should stay away.
+background; black
+sprite;;;left
+sprite;;;right
+textbox; off
+wait; 1
+display; And then they played shuffleboard.
+wait; 2.3
+textbox; on
 end

@@ -1,4 +1,4 @@
-background; black
+background; gym
 sprite; yn; idle; left
 sprite; rei; idle; right
 active_sprite; right
@@ -31,7 +31,7 @@ text; Rei; 0 0 0 1; What's that?
 active_sprite; left
 text; Y/N; 0 0 0 1; ...
 active_sprite; right
-background; black
+background; arcade
 sprite; rei; happy; right
 text; Rei; 0 0 0 1; woooaaahhh
 text; Rei; 0 0 0 1; It's like a casino!
@@ -48,7 +48,7 @@ sprite;;;right
 textbox; off
 wait; 2
 textbox; on
-background; black
+background; arcade
 sprite; yn; idle; left
 sprite; rei; happy; right
 text; Rei; 0 0 0 1; Ahah!
@@ -60,7 +60,7 @@ sprite;;;right
 textbox; off
 wait; 2
 textbox; on
-background; black
+background; arcade
 sprite; yn; idle; left
 sprite; rei; idle; right
 text; Rei; 0 0 0 1; But why is he a plumber?
@@ -71,7 +71,7 @@ sprite;;;right
 textbox; off
 wait; 2
 textbox; on
-background; black
+background; arcade
 sprite; yn; idle; left
 sprite; rei; idle; right
 text; Rei; 0 0 0 1; That sure was an interesting experience, Y/N.
@@ -84,10 +84,6 @@ sprite; rei; happy; right
 text; Rei; 0 0 0 1; Ahahah! Of course not!
 sprite; rei; idle; right
 text; Rei; 0 0 0 1; I wouldn't have fun here. This is a serious competition.
-text; Rei; 0 0 0 1; Mother wouldn't-
-sprite; rei; happy; right
-text; Rei; 0 0 0 1; Nevermind!
-sprite; rei; idle; right
 text; Rei; 0 0 0 1; Look at the time!
 text; Rei; 0 0 0 1; I've gotta get back to training!
 sprite; rei; happy; right
@@ -98,4 +94,5 @@ sprite;;;left
 sprite;;;right
 textbox; off
 wait; 2
+textbox; on
 end

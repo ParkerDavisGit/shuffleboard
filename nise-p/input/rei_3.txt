@@ -1,4 +1,4 @@
-background; black
+background; gym
 sprite; yn; idle; left
 sprite; rei; blank; right
 active_sprite; right
@@ -14,7 +14,7 @@ wait; 2
 textbox; on
 text; Rei; 0 0 0 1; I tried to warn you,
 text; Rei; 0 0 0 1; Y/N...
-background; black
+background; attack
 text; Rei; 0 0 0 1; You're too kind for your own good.
 text; Rei; 0 0 0 1; I hope you had fun, but with this, I'll have won the tournament.
 background; black
@@ -22,11 +22,10 @@ textbox; off
 wait; 1
 textbox; on
 text; ; 0 0 0 1; *CLACK*
-background; black
+background; deck
 sprite; yn; idle; left
-sprite; rei; angry; right
-text; Rei; 0 0 0 1; YOU!
-text; Rei; 0 0 0 1; HOW DO YOU KEEP BEATING ME?!
+sprite; rei; idle; right
+text; Rei; 0 0 0 1; How do you keep beating me?!
 ask;;0;; Leave; 1; relative; Want to play a game?; 3; relative
 wait; 1
 end
@@ -46,7 +45,7 @@ wait; 1
 display; And then they played shuffleboard.
 wait; 2.3
 textbox; on
-background; black
+background; deck
 sprite; yn; idle; left
 sprite; rei; blank; right
 text; Rei; 0 0 0 1; ...

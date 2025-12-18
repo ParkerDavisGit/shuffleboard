@@ -1,7 +1,7 @@
 [
   {
     "opcode": "background",
-    "file_name": "black"
+    "file_name": "gym"
   },
   {
     "opcode": "sprite",
@@ -322,7 +322,7 @@
   },
   {
     "opcode": "background",
-    "file_name": "black"
+    "file_name": "arcade"
   },
   {
     "opcode": "sprite",
@@ -431,6 +431,18 @@
     "file_name": "black"
   },
   {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
     "opcode": "textbox",
     "operation": "off"
   },
@@ -444,7 +456,13 @@
   },
   {
     "opcode": "background",
-    "file_name": "black"
+    "file_name": "arcade"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
   },
   {
     "opcode": "sprite",
@@ -521,7 +539,7 @@
   },
   {
     "opcode": "background",
-    "file_name": "black"
+    "file_name": "arcade"
   },
   {
     "opcode": "sprite",
@@ -591,7 +609,7 @@
   },
   {
     "opcode": "background",
-    "file_name": "black"
+    "file_name": "arcade"
   },
   {
     "opcode": "sprite",
@@ -707,44 +725,6 @@
         1.0
       ]
     },
-    "text": "Mother wouldn't-"
-  },
-  {
-    "opcode": "sprite",
-    "character": "rei",
-    "file_name": "happy",
-    "location": "right"
-  },
-  {
-    "opcode": "text",
-    "speaker_data": {
-      "speaker": "Rei",
-      "color": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ]
-    },
-    "text": "Nevermind!"
-  },
-  {
-    "opcode": "sprite",
-    "character": "rei",
-    "file_name": "idle",
-    "location": "right"
-  },
-  {
-    "opcode": "text",
-    "speaker_data": {
-      "speaker": "Rei",
-      "color": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ]
-    },
     "text": "Look at the time!"
   },
   {
@@ -806,6 +786,10 @@
   {
     "opcode": "wait",
     "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
   },
   {
     "opcode": "end"

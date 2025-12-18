@@ -1,24 +1,7 @@
 [
 	{
-		"opcode": "text",
-		"speaker_data": {
-			"speaker": "apples",
-			"color": [
-				1.0,
-				0.5,
-				0.5,
-				1.0
-			]
-		},
-		"text": "And then the played shuffleboard"
-	},
-	{
-		"opcode": "end"
-	},
-	{
-		"opcode": "jump",
-		"amount": 9.0,
-		"type": "absolute"
+		"opcode": "textbox",
+		"operation": "off"
 	},
 	{
 		"opcode": "background",
@@ -37,21 +20,16 @@
 		"time": 2.0
 	},
 	{
-		"opcode": "text",
-		"speaker_data": {
-			"speaker": "",
-			"color": [
-				0.0,
-				0.0,
-				0.0,
-				0.0
-			]
-		},
+		"opcode": "display",
 		"text": "Shuffleboard"
 	},
 	{
 		"opcode": "wait",
 		"time": 0.69999999999999996
+	},
+	{
+		"opcode": "textbox",
+		"operation": "on"
 	},
 	{
 		"opcode": "sprite",
@@ -64,9 +42,9 @@
 		"speaker_data": {
 			"speaker": "Y/N",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -83,9 +61,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -96,9 +74,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -136,9 +114,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -146,7 +124,7 @@
 	},
 	{
 		"opcode": "jump",
-		"amount": 4.0,
+		"amount": 3.0,
 		"type": "relative"
 	},
 	{
@@ -154,9 +132,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -167,9 +145,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -180,9 +158,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -193,9 +171,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -204,7 +182,7 @@
 	{
 		"opcode": "sprite",
 		"character": "rival",
-		"file_name": "angry",
+		"file_name": "idle",
 		"location": "left"
 	},
 	{
@@ -216,9 +194,9 @@
 		"speaker_data": {
 			"speaker": "Bradicus",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -233,7 +211,7 @@
 	{
 		"opcode": "sprite",
 		"character": "rival",
-		"file_name": "angry",
+		"file_name": "idle",
 		"location": "right"
 	},
 	{
@@ -245,9 +223,9 @@
 		"speaker_data": {
 			"speaker": "",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -264,9 +242,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -277,9 +255,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -290,9 +268,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -309,9 +287,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -322,9 +300,9 @@
 		"speaker_data": {
 			"speaker": "Rei",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -347,12 +325,38 @@
 		"file_name": "black"
 	},
 	{
+		"opcode": "sprite",
+		"character": "",
+		"file_name": "",
+		"location": "left"
+	},
+	{
+		"opcode": "sprite",
+		"character": "",
+		"file_name": "",
+		"location": "right"
+	},
+	{
+		"opcode": "textbox",
+		"operation": "off"
+	},
+	{
 		"opcode": "wait",
 		"time": 2.0
 	},
 	{
+		"opcode": "textbox",
+		"operation": "on"
+	},
+	{
 		"opcode": "background",
 		"file_name": "dining_hall"
+	},
+	{
+		"opcode": "sprite",
+		"character": "yn",
+		"file_name": "idle",
+		"location": "left"
 	},
 	{
 		"opcode": "sprite",
@@ -369,28 +373,22 @@
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
 		"text": "Shufflers and boarders, welcome to the HGS Shovilla's Shuffleboard World Championship Tournament."
 	},
 	{
-		"opcode": "sprite",
-		"character": "",
-		"file_name": "",
-		"location": "right"
-	},
-	{
 		"opcode": "text",
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -401,9 +399,9 @@
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -414,9 +412,9 @@
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -427,9 +425,9 @@
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -440,9 +438,9 @@
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},
@@ -453,9 +451,9 @@
 		"speaker_data": {
 			"speaker": "Captain",
 			"color": [
-				1.0,
-				1.0,
-				1.0,
+				0.0,
+				0.0,
+				0.0,
 				1.0
 			]
 		},

@@ -1,16 +1,534 @@
 [
   {
+    "opcode": "background",
+    "file_name": "gym"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "blank",
+    "location": "right"
+  },
+  {
+    "opcode": "active_sprite",
+    "location": "right"
+  },
+  {
     "opcode": "text",
     "speaker_data": {
       "speaker": "Rei",
       "color": [
-        1.0,
-        1.0,
-        1.0,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ]
     },
-    "text": "Rei 3"
+    "text": "hang out?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "again?"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "happy",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "If you insist~!"
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I tried to warn you,"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Y/N..."
+  },
+  {
+    "opcode": "background",
+    "file_name": "attack"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You're too kind for your own good."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I hope you had fun, but with this, I'll have won the tournament."
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 1.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "*CLACK*"
+  },
+  {
+    "opcode": "background",
+    "file_name": "deck"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "How do you keep beating me?!"
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "Leave",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "Want to play a game?",
+        {
+          "amount": 3,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "wait",
+    "time": 1.0
+  },
+  {
+    "opcode": "end"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "cover",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "A game?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You want to play a game?"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You really are an idiot."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Fine."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "happy",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "One more game is all I need to chase you off this boat for good."
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 1.0
+  },
+  {
+    "opcode": "display",
+    "text": "And then they played shuffleboard."
+  },
+  {
+    "opcode": "wait",
+    "time": 2.3
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "background",
+    "file_name": "deck"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "blank",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "why?"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "sad",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Why?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Why can't I beat you?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "sob",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "mother..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I'm sorry mother..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I can't do it."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I'm a bad girl."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Please forgive me."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Y/N",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
   },
   {
     "opcode": "end"

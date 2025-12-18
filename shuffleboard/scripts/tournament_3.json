@@ -1,5 +1,9 @@
 [
   {
+    "opcode": "background",
+    "file_name": "deck"
+  },
+  {
     "opcode": "text",
     "speaker_data": {
       "speaker": "",
@@ -11,6 +15,10 @@
       ]
     },
     "text": "Round 3: Vs. Choice"
+  },
+  {
+    "opcode": "display",
+    "text": "You win!"
   },
   {
     "opcode": "end"

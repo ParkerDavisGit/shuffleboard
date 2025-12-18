@@ -1,5 +1,9 @@
 [
   {
+    "opcode": "background",
+    "file_name": "deck"
+  },
+  {
     "opcode": "text",
     "speaker_data": {
       "speaker": "",
@@ -10,7 +14,11 @@
         1.0
       ]
     },
-    "text": "Round 2: Vs. Puck-Man"
+    "text": "Round 2: Vs. Francis"
+  },
+  {
+    "opcode": "display",
+    "text": "You win!"
   },
   {
     "opcode": "end"

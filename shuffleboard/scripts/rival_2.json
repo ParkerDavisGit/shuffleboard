@@ -1,16 +1,590 @@
 [
   {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rival",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "active_sprite",
+    "location": "right"
+  },
+  {
     "opcode": "text",
     "speaker_data": {
-      "speaker": "Rival",
+      "speaker": "Boardicus",
       "color": [
-        1.0,
-        1.0,
-        1.0,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ]
     },
-    "text": "Rival 2"
+    "text": "YOU PUNK!!!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Why are you so insistent on bothering me?!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Leave me alone, or I'll have to teach you another lesson."
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "Through the kid again?",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "I'm ready to learn!",
+        {
+          "amount": 5,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Wha?!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I can't afford him again..."
+  },
+  {
+    "opcode": "jump",
+    "amount": 2,
+    "type": "relative"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You're a weirdo."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Just leave me alone!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I am here to win. I am a shuffleboard machine."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "All this friend crap is meaningless."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "not like I could enjoy it anyways."
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "I'll leave you alone",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "Hang out?",
+        {
+          "amount": 8,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "end"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You know what?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Fine. You win."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "We can 'hang out'."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I'll show you why you don't want to hang out with me."
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rival",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "HAHAHA, you must now pay me 90 shufflebucks!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Y/N",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You have no right to cry. You forked over the rights to me already!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "HAHAHA!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Francis",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You sure are enjoying yourself, kid."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "What?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Francis",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Sorry, you just didn't seem the type at first."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I am NOT the type to enjoy myself."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Y/N",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "ARGHH!"
+  },
+  {
+    "opcode": "wait",
+    "time": 1.0
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rival",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Stop following me..."
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "Ok",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "Play shuffleboard?",
+        {
+          "amount": 2,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "end"
+  },
+  {
+    "opcode": "display",
+    "text": "And then they played shuffleboard"
   },
   {
     "opcode": "end"

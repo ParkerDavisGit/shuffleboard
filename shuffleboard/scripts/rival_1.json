@@ -1,16 +1,183 @@
 [
   {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rival",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "active_sprite",
+    "location": "right"
+  },
+  {
     "opcode": "text",
     "speaker_data": {
-      "speaker": "Rival",
+      "speaker": "Boardicus",
       "color": [
-        1.0,
-        1.0,
-        1.0,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ]
     },
-    "text": "Rival 1"
+    "text": "What?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "What did you just say to me?"
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "Uhh, nevermind",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "Let's hang out!",
+        {
+          "amount": 3,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "That's what I thought."
+  },
+  {
+    "opcode": "end"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "WHAT?!"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "YOU-"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "YOU-"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You don't realize who you're messing with, do you."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": ""
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": ""
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Boardicus",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": ""
   },
   {
     "opcode": "end"

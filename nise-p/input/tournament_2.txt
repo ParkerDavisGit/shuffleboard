@@ -1,2 +1,4 @@
-text; ; 1 1 1 1; Round 2: Vs. Puck-Man
+background; deck
+text; ; 1 1 1 1; Round 2: Vs. Francis
+display; You win!
 end

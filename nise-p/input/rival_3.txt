@@ -1,2 +1,2 @@
-text; Rival; 1 1 1 1; Rival 3
+text; Rival; 1 1 1 1; This day intentionally left blank
 end

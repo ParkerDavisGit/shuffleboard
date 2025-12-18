@@ -1,16 +1,655 @@
 [
   {
+    "opcode": "background",
+    "file_name": "gym"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "active_sprite",
+    "location": "right"
+  },
+  {
     "opcode": "text",
     "speaker_data": {
       "speaker": "Rei",
       "color": [
-        1.0,
-        1.0,
-        1.0,
+        0.0,
+        0.0,
+        0.0,
         1.0
       ]
     },
-    "text": "Rei 2"
+    "text": "Again?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You may have accepted how you're losing the next round."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "happy",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "But I've gotta train!"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "blank",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "it's what I was told to do."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "So I don't have time for any more distractions."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Y/N",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You're not listening to me."
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "I guess we can train",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "Want to get ice cream?",
+        {
+          "amount": 3,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "display",
+    "text": "And then they played shuffleboard."
+  },
+  {
+    "opcode": "end"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "blank",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "fine"
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "background",
+    "file_name": "ice_cream"
+  },
+  {
+    "opcode": "sprite",
+    "character": "yn",
+    "file_name": "idle",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Y/N"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Why do you not train?"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I saw your last match."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Why do you not prepare for the next?"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "blank",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "is your goal here not important to you?"
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "It is",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "It is not",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "i don't understand you."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "..."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Leave me alone."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You're weak and lazy."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You're a bad influence for me."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "happy",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Mother wouldn't approve."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "So if you approach me again."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "blank",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I'll make you regret it."
+  },
+  {
+    "opcode": "ask",
+    "text": "",
+    "choices": [
+      [
+        "",
+        {
+          "amount": 0,
+          "type": ""
+        }
+      ],
+      [
+        "I understand",
+        {
+          "amount": 1,
+          "type": "relative"
+        }
+      ],
+      [
+        "Play shuffleboard",
+        {
+          "amount": 10,
+          "type": "relative"
+        }
+      ]
+    ]
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Good."
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "I'll see you on the board, Y/N"
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 2.0
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "idle",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "You..."
+  },
+  {
+    "opcode": "sprite",
+    "character": "rei",
+    "file_name": "happy",
+    "location": "right"
+  },
+  {
+    "opcode": "text",
+    "speaker_data": {
+      "speaker": "Rei",
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "text": "Then I'll have to show you why you should stay away."
+  },
+  {
+    "opcode": "background",
+    "file_name": "black"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "left"
+  },
+  {
+    "opcode": "sprite",
+    "character": "",
+    "file_name": "",
+    "location": "right"
+  },
+  {
+    "opcode": "textbox",
+    "operation": "off"
+  },
+  {
+    "opcode": "wait",
+    "time": 1.0
+  },
+  {
+    "opcode": "display",
+    "text": "And then they played shuffleboard."
+  },
+  {
+    "opcode": "wait",
+    "time": 2.3
+  },
+  {
+    "opcode": "textbox",
+    "operation": "on"
   },
   {
     "opcode": "end"
